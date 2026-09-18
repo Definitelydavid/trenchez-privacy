@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAIL Extension — Privacy Policy</title>
+<meta name="description" content="What the TAIL browser extension stores, what it sends, and why.">
+<style>
+  :root { --paper:#f5f5f0; --ink:#171b1b; --muted:#6f756f; --line:#d9dcd6; --blue:#1557ff; --surface:#ecece6;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; --mono:"SF Mono",ui-monospace,Menlo,monospace; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 var(--sans); -webkit-font-smoothing:antialiased; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 96px; }
+  header { display:flex; align-items:center; gap:10px; margin-bottom:36px; font-weight:650; letter-spacing:-.04em; font-size:22px; }
+  header svg { width:30px; height:auto; display:block; }
+  h1 { font-size:clamp(28px,5vw,40px); line-height:1.15; letter-spacing:-.03em; margin:0 0 10px; }
+  .meta { color:var(--muted); font-size:14px; margin:0 0 40px; }
+  h2 { font-size:19px; letter-spacing:-.01em; margin:44px 0 10px; }
+  p, li { color:#3a403d; }
+  .lead { font-size:18px; color:var(--ink); }
+  code { font-family:var(--mono); font-size:.88em; background:var(--surface); padding:1px 6px; border-radius:5px; border:1px solid var(--line); }
+  .table-wrap { overflow-x:auto; margin:14px 0; border:1px solid var(--line); border-radius:10px; background:#fff; }
+  table { border-collapse:collapse; width:100%; min-width:540px; font-size:14.5px; }
+  th, td { text-align:left; vertical-align:top; padding:12px 14px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.06em; }
+  tr:last-child td { border-bottom:0; }
+  a { color:var(--blue); }
+  footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<header><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 48" fill="none"><path d="M3 38h15c15 0 23-12 23-27V4" stroke="#1557ff" stroke-width="9"/><path d="M3 24h12c7 0 12-6 12-13V4" stroke="#1557ff" stroke-width="9"/><path d="M36 4h14v14" stroke="#1557ff" stroke-width="9"/></svg> TAIL</header>
+<h1>Privacy Policy</h1>
+<p class="meta">TAIL browser extension · Effective 18 September 2026</p>
+<p class="lead">TAIL shows which FOMO traders hold the token you are viewing on supported trading sites, and lets you follow (“tail”) traders to be notified of their trades. It does not trade, hold keys or move funds, and it has no account or server of its own.</p>
+
+<h2>What stays on your device</h2>
+<p>Your tail list, settings, the recent trade tape and — if you add one — your fomoapi.io API key are stored in your browser's extension storage (<code>chrome.storage</code>). They are never sent to us.</p>
+
+<h2>What leaves your device, and why</h2>
+<div class="table-wrap"><table>
+<tr><th>Service</th><th>What is sent</th><th>Why</th></tr>
+<tr><td>fomoapi.io (<code>api.fomoapi.io</code>)</td><td>The address of the token you are viewing; your fomoapi key if you added one</td><td>List the FOMO traders holding it, the leaderboard, and the live trade stream</td></tr>
+<tr><td>DexScreener (<code>api.dexscreener.com</code>)</td><td>The token or pair address you are viewing</td><td>Market cap and price, to compute entry market cap</td></tr>
+</table></div>
+<p>These services receive your IP address as part of any web request and are governed by their own privacy policies.</p>
+
+<h2>Pages the extension reads</h2>
+<p>On GMGN, Axiom, Dexscreener and MevX, TAIL reads the page address to know which token you are viewing. It does not read page content, form fields, cookies, logins or browsing history, and it does not record what you view. It never accesses fomo.family.</p>
+
+<h2>What we don't do</h2>
+<p>No analytics, no advertising, no sale or sharing of data, no tracking across sites. TAIL is not affiliated with FOMO.</p>
+
+<h2>Your control</h2>
+<p>Remove traders or your key in the extension's Settings. Uninstalling the extension removes all stored data.</p>
+
+<h2>Contact</h2>
+<p>Through the support link on the Chrome Web Store listing.</p>
+<footer>TAIL · Not affiliated with FOMO or any trading site it runs on.</footer>
+</main>
+</body>
+</html>
